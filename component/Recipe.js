@@ -1,5 +1,3 @@
-import IngredientList from "./IngredientList"
-
 import IngredientList from './IngredientList'
 import Instructions from  "./Instructions"
 

@@ -1,4 +1,3 @@
-import Ingredident from "./Ingredient"
 import Ingredient from  "./Ingredient"
 
 const IngredientList = (list) =>
