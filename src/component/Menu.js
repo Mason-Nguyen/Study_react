@@ -12,4 +12,4 @@ const Menu = ({recipes}) =>
         </header>
     </article>
 
-    export default Menu
+export default Menu

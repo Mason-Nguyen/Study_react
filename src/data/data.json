@@ -1,4 +1,4 @@
-var data = [
+[
     {
         "name": "Baked Salmon",
         "ingredients": [
@@ -33,4 +33,4 @@ var data = [
         "Top them with lettuce, tomatoes, and cheese."
         ]
     }
-];
+]
