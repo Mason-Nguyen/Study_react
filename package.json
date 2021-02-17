@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --mode=development --watch"
   },
   "dependencies": {
     "@babel/core": "^7.12.16",
     "@babel/preset-env": "^7.12.16",
     "@babel/preset-react": "^7.12.13",
     "@babel/traverse": "^7.12.13",
-    "es2015": "^0.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
