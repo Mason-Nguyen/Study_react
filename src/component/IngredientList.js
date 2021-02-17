@@ -1,9 +1,9 @@
 import Ingredient from  "./Ingredient"
 
-const IngredientList = (list) =>
+const IngredientList = ({list}) =>
     <ul className="ingredients">
         {list.map((ingredient, i) =>
-            <Ingredient key="i">{...ingredient}</Ingredient>
+            <Ingredient key="i" {...ingredient}></Ingredient>
         )}
     </ul>
 
