@@ -4,6 +4,16 @@ object-assign
 @license MIT
 */
 
+/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./menu.css */
+
+/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+
+/*! ../../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */
+
+/*! ../stylesheets/menu.css */
+
 /*! ./Ingredient */
 
 /*! ./IngredientList */
@@ -50,6 +60,10 @@ object-assign
   !*** ./src/component/Recipe.js ***!
   \*********************************/
 
+/*!**********************************!*\
+  !*** ./src/stylesheets/menu.css ***!
+  \**********************************/
+
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
   \*************************************/
@@ -83,6 +97,10 @@ object-assign
   \*********************************************/
 
 /*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
   \*****************************************************/
 
@@ -97,6 +115,18 @@ object-assign
 /*!*********************************************************************!*\
   !*** ./node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
   \*********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/cssWithMappingToString.js ***!
+  \************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/stylesheets/menu.css ***!
+  \**********************************************************************************************************************************************/
 
 /**
  * Checks if an event is supported in the current execution environment.
