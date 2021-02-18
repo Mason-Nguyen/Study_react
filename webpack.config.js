@@ -1,5 +1,6 @@
 const path = require('path');
-
+const { webpack } = require('webpack');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
     /*inline-source-map: souce map will be written in bundle.js
@@ -30,5 +31,10 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    optimization: {
+        minimize: true,
+        //minimize: false, // <---- disables uglify.
+        // minimizer: [new UglifyJsPlugin()] <----- if you want to customize it.
+      }
 }
