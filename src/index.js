@@ -1,11 +1,13 @@
 import React from "react"
 import ReactDOM, { render }  from "react-dom"
-import Menu from './component/Menu'
-import data from "./data/data.json"
+// import Menu from './component/Menu'
+// data from "./data/data.json"
+
+import StarRating from './component/StarRating/StarRating'
 
 window.React = React
 
 ReactDOM.render(
-    <Menu recipes={data} />,
+    <StarRating totalStars={(7)} starsSelected={(3)} />,
     document.getElementById("react-container")
 )
