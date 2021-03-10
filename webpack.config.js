@@ -44,9 +44,9 @@ module.exports = {
             }
         ]
     },
-    optimization: {
-        minimize: true,
+    //optimization: {
+        //minimize: true,
         //minimize: false, // <---- disables uglify.
         // minimizer: [new UglifyJsPlugin()] <----- if you want to customize it.
-      }
+    //}
 }

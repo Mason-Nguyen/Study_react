@@ -7,7 +7,7 @@ export default class StarRating extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            starsSelected: 3
+            starsSelected: props.starsSelected || 0
         }
 
         this.change = this.change.bind(this);

@@ -4,23 +4,11 @@ object-assign
 @license MIT
 */
 
-/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./Star.css */
+/*! ./AddColorForm */
 
-/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
-
-/*! ../../../node_modules/css-loader/dist/runtime/api.js */
-
-/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */
-
-/*! ../../stylesheets/StarRating/Star.css */
-
-/*! ./Star */
-
-/*! ./checkPropTypes */
+/*! ./ColorList */
 
 /*! ./cjs/react-dom.development.js */
-
-/*! ./cjs/react-is.development.js */
 
 /*! ./cjs/react.development.js */
 
@@ -28,37 +16,41 @@ object-assign
 
 /*! ./cjs/scheduler.development.js */
 
-/*! ./component/StarRating/StarRating */
+/*! ./component/colorOrganizer/App */
 
-/*! ./factoryWithTypeCheckers */
+/*! ./data/color.json */
 
-/*! ./lib/ReactPropTypesSecret */
+/*! ./regex.js */
+
+/*! ./rng.js */
+
+/*! ./stringify.js */
+
+/*! ./validate.js */
 
 /*! object-assign */
-
-/*! prop-types */
 
 /*! react */
 
 /*! react-dom */
 
-/*! react-is */
-
 /*! scheduler */
 
 /*! scheduler/tracing */
+
+/*! uuid */
 
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 
+/*!*****************************!*\
+  !*** ./src/data/color.json ***!
+  \*****************************/
+
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
   \*************************************/
-
-/*!****************************************!*\
-  !*** ./node_modules/react-is/index.js ***!
-  \****************************************/
 
 /*!*****************************************!*\
   !*** ./node_modules/react-dom/index.js ***!
@@ -67,14 +59,6 @@ object-assign
 /*!*****************************************!*\
   !*** ./node_modules/scheduler/index.js ***!
   \*****************************************/
-
-/*!******************************************!*\
-  !*** ./node_modules/prop-types/index.js ***!
-  \******************************************/
-
-/*!******************************************!*\
-  !*** ./src/component/StarRating/Star.js ***!
-  \******************************************/
 
 /*!*******************************************!*\
   !*** ./node_modules/scheduler/tracing.js ***!
@@ -85,36 +69,40 @@ object-assign
   \*********************************************/
 
 /*!*********************************************!*\
-  !*** ./src/stylesheets/StarRating/Star.css ***!
+  !*** ./src/component/colorOrganizer/App.js ***!
   \*********************************************/
 
-/*!************************************************!*\
-  !*** ./src/component/StarRating/StarRating.js ***!
-  \************************************************/
+/*!**************************************************!*\
+  !*** ./node_modules/uuid/dist/esm-browser/v4.js ***!
+  \**************************************************/
 
 /*!***************************************************!*\
-  !*** ./node_modules/prop-types/checkPropTypes.js ***!
+  !*** ./node_modules/uuid/dist/esm-browser/rng.js ***!
   \***************************************************/
 
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
+/*!***************************************************!*\
+  !*** ./src/component/colorOrganizer/ColorList.js ***!
+  \***************************************************/
 
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
   \*****************************************************/
 
-/*!***********************************************************!*\
-  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
-  \***********************************************************/
+/*!*****************************************************!*\
+  !*** ./node_modules/uuid/dist/esm-browser/regex.js ***!
+  \*****************************************************/
 
-/*!************************************************************!*\
-  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
-  \************************************************************/
+/*!******************************************************!*\
+  !*** ./src/component/colorOrganizer/AddColorForm.js ***!
+  \******************************************************/
 
-/*!*************************************************************!*\
-  !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
-  \*************************************************************/
+/*!********************************************************!*\
+  !*** ./node_modules/uuid/dist/esm-browser/validate.js ***!
+  \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./node_modules/uuid/dist/esm-browser/stringify.js ***!
+  \*********************************************************/
 
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
@@ -128,18 +116,6 @@ object-assign
   !*** ./node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
   \*********************************************************************/
 
-/*!************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/cssWithMappingToString.js ***!
-  \************************************************************************/
-
-/*!****************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
-
-/*!*********************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/stylesheets/StarRating/Star.css ***!
-  \*********************************************************************************************************************************************************/
-
 /**
  * Checks if an event is supported in the current execution environment.
  *
@@ -152,49 +128,4 @@ object-assign
  * @return {boolean} True if the event is supported.
  * @internal
  * @license Modernizr 3.0.0pre (Custom Build) | MIT
- */
-
-/** @license React v0.20.1
- * scheduler-tracing.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/** @license React v0.20.1
- * scheduler.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/** @license React v16.13.1
- * react-is.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/** @license React v17.0.1
- * react-dom.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/** @license React v17.0.1
- * react.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
  */
