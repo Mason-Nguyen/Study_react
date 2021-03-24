@@ -17,16 +17,16 @@ export default class App extends Component {
     }
 
     rateColor(id, rating) {
-        const colors = this.state.colors.map(color => {
+        const colors = this.state.colors.map(color => 
             (color.id !== id) ? color : {...color, rating}
-        })
+        )
 
         this.setState({colors})
     }
 
     removeColor(id) {
-        const colors = this.state.colors.map(color => color.id != id);
-        this.setState(colors);
+        const colors = this.state.colors.filter(color => color.id != id);
+        this.setState({colors});
     }
 
     addColor(title, color) {
@@ -51,7 +51,7 @@ export default class App extends Component {
                 <AddColorForm onNewColor = {this.addColor}/>
                 <ColorList colors = {colors}
                            onRate = {this.rateColor}
-                           removeColor = {this.removeColor}/>
+                           onRemove = {this.removeColor}/>
             </div>
         )
     }

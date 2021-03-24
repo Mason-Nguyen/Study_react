@@ -1,4 +1,5 @@
 import Star from "../StarRating/Star"
+import  "../../stylesheets/StarRating/Star.css"
 
 const StarRating  = ({starsSelected = 0, totalStars = 5, onRate=f=>f}) =>
     <div className="star-rating">
